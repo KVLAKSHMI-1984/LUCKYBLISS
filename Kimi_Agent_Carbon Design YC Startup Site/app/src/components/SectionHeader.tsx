@@ -13,7 +13,7 @@ export function SectionHeader({ eyebrow, heading, body, align = 'center', classN
 
   return (
     <div ref={ref} className={`${align === 'center' ? 'text-center' : ''} ${className}`}>
-      <p className="text-label text-[#e4a817] mb-4">{eyebrow}</p>
+      <p className="text-label text-[#24a148] mb-4">{eyebrow}</p>
       <h2 className="text-display-lg text-[#f2f2f2] mb-6">{heading}</h2>
       {body && (
         <p className="text-body text-[#cccccc] max-w-[600px] mx-auto">{body}</p>

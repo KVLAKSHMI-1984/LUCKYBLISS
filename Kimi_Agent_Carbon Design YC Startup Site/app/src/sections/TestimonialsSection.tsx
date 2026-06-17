@@ -75,7 +75,7 @@ export function TestimonialsSection() {
                 <div className="max-w-[800px] mx-auto border border-white/[0.06] rounded-sm p-8 md:p-10 bg-[#1c1c1c] relative">
                   {/* Quote icon */}
                   <svg
-                    className="absolute top-6 left-6 w-10 h-10 text-[#e4a817]/20"
+                    className="absolute top-6 left-6 w-10 h-10 text-[#24a148]/20"
                     viewBox="0 0 24 24"
                     fill="currentColor"
                   >
@@ -113,7 +113,7 @@ export function TestimonialsSection() {
               }}
               className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
                 i === activeIndex
-                  ? 'bg-[#e4a817] scale-110'
+                  ? 'bg-[#24a148] scale-110'
                   : 'bg-[#333333] hover:bg-[#666666]'
               }`}
               aria-label={`Go to testimonial ${i + 1}`}

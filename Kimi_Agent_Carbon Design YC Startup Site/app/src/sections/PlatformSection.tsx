@@ -57,7 +57,7 @@ function TypewriterCode() {
     return code.split('\n').map((line, i) => {
       // Simple syntax highlighting
       let highlighted = line
-        .replace(/(import|from|print)/g, '<span class="text-[#e4a817]">$1</span>')
+        .replace(/(import|from|print)/g, '<span class="text-[#24a148]">$1</span>')
         .replace(/('.*?')/g, '<span class="text-[#5a8a8a]">$1</span>')
         .replace(/(#.*)/g, '<span class="text-[#666666]">$1</span>')
         .replace(/\b(\d+\.?\d*)\b/g, '<span class="text-[#c9a96e]">$1</span>');
@@ -82,7 +82,7 @@ function TypewriterCode() {
           dangerouslySetInnerHTML={{ __html: highlightCode(displayed) }}
         />
         {started && displayed.length < codeSnippet.length && (
-          <span className="inline-block w-2 h-4 bg-[#e4a817] ml-0.5 animate-pulse" />
+          <span className="inline-block w-2 h-4 bg-[#24a148] ml-0.5 animate-pulse" />
         )}
       </pre>
     </div>
@@ -107,7 +107,7 @@ function VisualizerCard() {
           <path
             d="M50 150 Q100 80 150 120 T250 100 T350 150"
             fill="none"
-            stroke="#e4a817"
+            stroke="#24a148"
             strokeWidth="3"
             opacity="0.8"
           />
@@ -115,25 +115,25 @@ function VisualizerCard() {
           <path
             d="M60 140 Q110 70 160 110 T260 90 T360 140"
             fill="none"
-            stroke="#e4a817"
+            stroke="#24a148"
             strokeWidth="2"
             opacity="0.4"
             strokeDasharray="8 4"
           />
           {/* Atoms */}
-          <circle cx="50" cy="150" r="8" fill="#e4a817" opacity="0.9" />
+          <circle cx="50" cy="150" r="8" fill="#24a148" opacity="0.9" />
           <circle cx="150" cy="120" r="6" fill="#5a8a8a" opacity="0.8" />
-          <circle cx="250" cy="100" r="7" fill="#e4a817" opacity="0.9" />
+          <circle cx="250" cy="100" r="7" fill="#24a148" opacity="0.9" />
           <circle cx="350" cy="150" r="8" fill="#5a8a8a" opacity="0.8" />
           <circle cx="100" cy="100" r="5" fill="#c9a96e" opacity="0.6" />
           <circle cx="200" cy="80" r="5" fill="#c9a96e" opacity="0.6" />
           <circle cx="300" cy="120" r="5" fill="#c9a96e" opacity="0.6" />
           {/* Bonds */}
-          <line x1="50" y1="150" x2="100" y2="100" stroke="#e4a817" strokeWidth="1.5" opacity="0.5" />
-          <line x1="150" y1="120" x2="100" y2="100" stroke="#e4a817" strokeWidth="1.5" opacity="0.5" />
+          <line x1="50" y1="150" x2="100" y2="100" stroke="#24a148" strokeWidth="1.5" opacity="0.5" />
+          <line x1="150" y1="120" x2="100" y2="100" stroke="#24a148" strokeWidth="1.5" opacity="0.5" />
           <line x1="150" y1="120" x2="200" y2="80" stroke="#5a8a8a" strokeWidth="1.5" opacity="0.5" />
-          <line x1="250" y1="100" x2="200" y2="80" stroke="#e4a817" strokeWidth="1.5" opacity="0.5" />
-          <line x1="250" y1="100" x2="300" y2="120" stroke="#e4a817" strokeWidth="1.5" opacity="0.5" />
+          <line x1="250" y1="100" x2="200" y2="80" stroke="#24a148" strokeWidth="1.5" opacity="0.5" />
+          <line x1="250" y1="100" x2="300" y2="120" stroke="#24a148" strokeWidth="1.5" opacity="0.5" />
           <line x1="350" y1="150" x2="300" y2="120" stroke="#5a8a8a" strokeWidth="1.5" opacity="0.5" />
           {/* Binding site highlight */}
           <circle cx="200" cy="100" r="25" fill="none" stroke="#5a8a8a" strokeWidth="1" opacity="0.3" strokeDasharray="4 2" />

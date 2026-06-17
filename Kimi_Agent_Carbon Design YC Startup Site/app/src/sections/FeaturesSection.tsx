@@ -59,7 +59,7 @@ function FeatureRow({ eyebrow, title, body, link, imageLeft, defaultImage, hover
 
   const textContent = (
     <div className="flex flex-col justify-center">
-      <p className="text-label text-[#e4a817] mb-3">{eyebrow}</p>
+      <p className="text-label text-[#24a148] mb-3">{eyebrow}</p>
       <h3 className="text-heading-1 text-[#f2f2f2] mb-4">{title}</h3>
       <p className="text-body text-[#cccccc] mb-6">{body}</p>
       <a

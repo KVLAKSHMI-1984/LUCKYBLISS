@@ -57,7 +57,7 @@ export class MolecularSimulation {
     const material = new THREE.ShaderMaterial({
       uniforms: {
         uTime: { value: 0 },
-        uColor: { value: new THREE.Color('#e4a817') },
+        uColor: { value: new THREE.Color('#24a148') },
         uOpacity: { value: 1 },
       },
       vertexShader: `

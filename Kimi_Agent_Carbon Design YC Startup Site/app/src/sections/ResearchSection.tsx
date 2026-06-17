@@ -36,7 +36,7 @@ export function ResearchSection() {
               key={step.number}
               className={`py-12 ${index < steps.length - 1 ? 'border-b border-white/[0.06]' : ''}`}
             >
-              <span className="font-mono-data text-[clamp(4rem,10vw,8rem)] text-[#e4a817]/30 leading-none block mb-4">
+              <span className="font-mono-data text-[clamp(4rem,10vw,8rem)] text-[#24a148]/30 leading-none block mb-4">
                 {step.number}
               </span>
               <h3 className="text-heading-1 text-[#f2f2f2] mb-4">{step.title}</h3>

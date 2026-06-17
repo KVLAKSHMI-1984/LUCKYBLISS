@@ -77,7 +77,7 @@ export function PricingSection() {
           <button
             onClick={() => setIsAnnual(!isAnnual)}
             className="relative w-12 h-6 rounded-full transition-colors duration-200 cursor-pointer"
-            style={{ backgroundColor: isAnnual ? '#e4a817' : '#333333' }}
+            style={{ backgroundColor: isAnnual ? '#24a148' : '#333333' }}
             aria-label="Toggle annual billing"
           >
             <div
@@ -86,7 +86,7 @@ export function PricingSection() {
             />
           </button>
           <span className={`text-label ${isAnnual ? 'text-[#f2f2f2]' : 'text-[#666666]'}`}>
-            Annual <span className="text-[#e4a817]">(save 20%)</span>
+            Annual <span className="text-[#24a148]">(save 20%)</span>
           </span>
         </div>
 
@@ -97,12 +97,12 @@ export function PricingSection() {
               key={plan.name}
               className={`relative p-8 md:p-10 rounded-sm bg-[#1c1c1c] ${
                 plan.highlighted
-                  ? 'border border-[#e4a817]'
+                  ? 'border border-[#24a148]'
                   : 'border border-white/[0.06]'
               }`}
             >
               {plan.highlighted && (
-                <span className="absolute -top-3 right-6 bg-[#e4a817] text-[#1c1c1c] text-label px-3 py-1 rounded-sm">
+                <span className="absolute -top-3 right-6 bg-[#24a148] text-[#1c1c1c] text-label px-3 py-1 rounded-sm">
                   Most Popular
                 </span>
               )}
@@ -119,7 +119,7 @@ export function PricingSection() {
               <ul className="flex flex-col gap-3 mb-8">
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
-                    <Check className="w-4 h-4 text-[#e4a817] shrink-0 mt-0.5" />
+                    <Check className="w-4 h-4 text-[#24a148] shrink-0 mt-0.5" />
                     <span className="text-body text-[#cccccc]">{feature}</span>
                   </li>
                 ))}

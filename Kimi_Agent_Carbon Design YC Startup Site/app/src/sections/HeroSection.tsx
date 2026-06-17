@@ -63,7 +63,7 @@ export function HeroSection() {
 
       {/* Content */}
       <div ref={contentRef} className="relative z-10 container-page text-center pt-20">
-        <p className="hero-animate text-label text-[#e4a817] mb-6">
+        <p className="hero-animate text-label text-[#24a148] mb-6">
           AI-POWERED MOLECULAR SIMULATION
         </p>
 

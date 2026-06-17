@@ -73,11 +73,11 @@ function FAQItem({
         onClick={onToggle}
         className="w-full flex items-center justify-between py-6 text-left cursor-pointer group"
       >
-        <span className="text-heading-3 text-[#f2f2f2] pr-8 group-hover:text-[#e4a817] transition-colors duration-200">
+        <span className="text-heading-3 text-[#f2f2f2] pr-8 group-hover:text-[#24a148] transition-colors duration-200">
           {question}
         </span>
         <span
-          className="text-[#e4a817] text-2xl shrink-0 transition-transform duration-300"
+          className="text-[#24a148] text-2xl shrink-0 transition-transform duration-300"
           style={{ transform: isOpen ? 'rotate(45deg)' : 'rotate(0deg)' }}
         >
           +

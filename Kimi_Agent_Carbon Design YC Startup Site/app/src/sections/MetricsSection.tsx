@@ -65,7 +65,7 @@ export function MetricsSection() {
                 <div className="flex items-center gap-3">
                   <div className="flex-1 h-6 bg-white/[0.04] rounded-sm overflow-hidden">
                     <div
-                      className="h-full bg-[#e4a817] rounded-sm flex items-center justify-end pr-2 transition-all duration-[1200ms] ease-out"
+                      className="h-full bg-[#24a148] rounded-sm flex items-center justify-end pr-2 transition-all duration-[1200ms] ease-out"
                       style={{ width: barWidths[i] ? `${metric.voxelValue}%` : '0%' }}
                     >
                       <span className="font-mono-data text-xs text-[#1c1c1c] font-medium whitespace-nowrap">
@@ -94,7 +94,7 @@ export function MetricsSection() {
           {/* Legend */}
           <div className="flex gap-6 mt-4 justify-end">
             <div className="flex items-center gap-2">
-              <div className="w-3 h-3 bg-[#e4a817] rounded-sm" />
+              <div className="w-3 h-3 bg-[#24a148] rounded-sm" />
               <span className="text-body-small text-[#cccccc]">VoxelBio</span>
             </div>
             <div className="flex items-center gap-2">

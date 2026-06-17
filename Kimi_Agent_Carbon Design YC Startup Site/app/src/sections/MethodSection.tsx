@@ -116,10 +116,10 @@ export function MethodSection() {
             return (
               <div
                 key={card.number}
-                className="method-card p-8 border border-white/[0.06] rounded-sm bg-[#1c1c1c] hover:border-white/[0.12] hover:shadow-[0_0_20px_rgba(228,168,23,0.05)] transition-all duration-300"
+                className="method-card p-8 border border-white/[0.06] rounded-sm bg-[#1c1c1c] hover:border-white/[0.12] hover:shadow-[0_0_20px_rgba(36,161,72,0.05)] transition-all duration-300"
                 style={{ transformStyle: 'preserve-3d' }}
               >
-                <span className="font-mono-data text-[#e4a817] text-sm mb-4 block">
+                <span className="font-mono-data text-[#24a148] text-sm mb-4 block">
                   {card.number}
                 </span>
                 <Icon className="w-10 h-10 text-[#f2f2f2] mb-4" />

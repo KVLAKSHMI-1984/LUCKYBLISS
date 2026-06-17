@@ -52,7 +52,7 @@ export function Navigation() {
           <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14 2L24 8V20L14 26L4 20V8L14 2Z" stroke="#f2f2f2" strokeWidth="1.5" fill="none" />
             <path d="M14 2V14M14 14L4 8M14 14L24 8M14 14V26M14 14L4 20M14 14L24 20" stroke="#f2f2f2" strokeWidth="1" opacity="0.5" />
-            <circle cx="14" cy="14" r="3" fill="#e4a817" />
+            <circle cx="14" cy="14" r="3" fill="#24a148" />
           </svg>
           <span className="text-[#f2f2f2] font-medium text-base tracking-tight">VoxelBio</span>
         </a>

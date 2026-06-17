@@ -74,7 +74,7 @@ export function SolutionSection() {
                 key={benefit.title}
                 className="p-6 border border-white/[0.06] rounded-sm hover:border-white/[0.12] transition-all duration-300"
               >
-                <Icon className="w-5 h-5 text-[#e4a817] mb-3" />
+                <Icon className="w-5 h-5 text-[#24a148] mb-3" />
                 <h3 className="text-heading-3 text-[#f2f2f2] mb-2">{benefit.title}</h3>
                 <p className="text-body text-[#cccccc]">{benefit.description}</p>
               </div>

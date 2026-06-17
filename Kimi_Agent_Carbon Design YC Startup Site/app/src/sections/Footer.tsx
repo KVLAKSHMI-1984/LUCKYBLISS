@@ -19,7 +19,7 @@ export function Footer() {
               <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14 2L24 8V20L14 26L4 20V8L14 2Z" stroke="#f2f2f2" strokeWidth="1.5" fill="none" />
                 <path d="M14 2V14M14 14L4 8M14 14L24 8M14 14V26M14 14L4 20M14 14L24 20" stroke="#f2f2f2" strokeWidth="1" opacity="0.5" />
-                <circle cx="14" cy="14" r="3" fill="#e4a817" />
+                <circle cx="14" cy="14" r="3" fill="#24a148" />
               </svg>
               <span className="text-[#f2f2f2] font-medium text-sm tracking-tight">VoxelBio</span>
             </div>
@@ -45,7 +45,7 @@ export function Footer() {
               </a>
             </div>
           </div>
-
+ 
           {/* Product Links */}
           <div>
             <h4 className="text-label text-[#f2f2f2] mb-4">Product</h4>
@@ -59,7 +59,7 @@ export function Footer() {
               ))}
             </ul>
           </div>
-
+ 
           {/* Resources Links */}
           <div>
             <h4 className="text-label text-[#f2f2f2] mb-4">Resources</h4>
@@ -73,7 +73,7 @@ export function Footer() {
               ))}
             </ul>
           </div>
-
+ 
           {/* Company Links */}
           <div>
             <h4 className="text-label text-[#f2f2f2] mb-4">Company</h4>
@@ -87,7 +87,7 @@ export function Footer() {
               ))}
             </ul>
           </div>
-
+ 
           {/* Newsletter */}
           <div className="col-span-2 md:col-span-1">
             <h4 className="text-label text-[#f2f2f2] mb-4">Stay updated</h4>
@@ -100,7 +100,7 @@ export function Footer() {
                 placeholder="your@email.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="flex-1 min-w-0 bg-white/[0.04] border border-white/[0.12] rounded-sm px-3 py-2 text-body text-[#f2f2f2] placeholder-[#666666] focus:border-[#e4a817] focus:outline-none transition-colors duration-200"
+                className="flex-1 min-w-0 bg-white/[0.04] border border-white/[0.12] rounded-sm px-3 py-2 text-body text-[#f2f2f2] placeholder-[#666666] focus:border-[#24a148] focus:outline-none transition-colors duration-200"
               />
               <Button variant="primary" className="px-4 py-2 shrink-0">
                 Subscribe
