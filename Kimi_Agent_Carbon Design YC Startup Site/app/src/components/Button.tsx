@@ -13,7 +13,7 @@ export const Button = React.forwardRef<HTMLButtonElement | HTMLAnchorElement, Bu
 
     const variantClasses = {
       primary:
-        'bg-[#e4a817] text-[#1c1c1c] px-6 py-3 rounded-sm hover:bg-[#c99600] hover:scale-[1.02] active:bg-[#9e7200] active:scale-[0.98]',
+        'bg-[#10b981] text-[#1c1c1c] px-6 py-3 rounded-sm hover:bg-[#059669] hover:scale-[1.02] active:bg-[#047857] active:scale-[0.98]',
       secondary:
         'border border-[#f2f2f2] text-[#f2f2f2] px-6 py-3 rounded-sm hover:bg-white/[0.08] hover:border-white active:bg-white/[0.12]',
       tertiary:
